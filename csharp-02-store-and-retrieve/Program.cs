@@ -13,6 +13,10 @@ namespace csharp02storeandretrieve
             int numberOfMembers = int.Parse(Console.ReadLine());
 
             Console.WriteLine(name + " has " + numberOfMembers + " members.");
+
+            string bandNameAndMembers = name + " (" + numberOfMembers + ")";
+
+            Console.WriteLine(bandNameAndMembers);
         }
     }
 }
